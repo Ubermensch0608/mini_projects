@@ -5,6 +5,48 @@
     <title>Mini Shopping Mall</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        background-color: slategray;
+      }
+      .mainLogo {
+        width: 10px;
+        margin: 80px auto 10px auto;
+      }
+      .navBar {
+        width: 500px;
+        margin: 20px auto 20px auto;
+      }
+      .categoryImg img {
+        width: 70px;
+      }
+      .blueBox {
+        background-color: cornflowerblue;
+        padding: 15px;
+        border-radius: 5px;
+      }
+      .yellowBox {
+        background-color: yellow;
+        padding: 15px;
+        border-radius: 5px;
+      }
+      .pinkBox {
+        background-color: tomato;
+        padding: 15px;
+        border-radius: 5px;
+      }
+      .itemBox {
+        background-color: whitesmoke;
+        width: 700px;
+        margin: 40px auto 0 auto;
+        padding: 5px;
+        border-radius: 3px;
+      }
+      .itemBox img {
+        width: 60px;
+        padding: 3px;
+      }
+    </style>
   </head>
   <body>
     <!-- 메인로고 섹션 -->
@@ -12,12 +54,16 @@
     <!-- 상단 카테고리 네비게이션바 -->
     <div class="navBar">
       <nav>
-        <img src="/imgs/blue_t.png" alt="Tshirt" />
-        <img src="/imgs/blue_p.png" alt="pants" />
-        <img src="/imgs/blue_s.png" alt="skirt" />
-        <span class="blueBox">Blue</span>
-        <span class="YellowBox">Yellow</span>
-        <span class="pinkBox">Pink</span>
+        <span class="categoryImg">
+          <img src="/imgs/blue_t.png" alt="Tshirt" />
+          <img src="/imgs/blue_p.png" alt="pants" />
+          <img src="/imgs/blue_s.png" alt="skirt" />
+        </span>
+        <span class="categoryColor">
+          <span class="blueBox">Blue</span>
+          <span class="yellowBox">Yellow</span>
+          <span class="pinkBox">Pink</span>
+        </span>
       </nav>
     </div>
     <div class="itemBox">
