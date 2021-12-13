@@ -1,0 +1,14 @@
+h1 {
+  background-color: blanchedalmond;
+  width: 500px;
+  text-align: center;
+  display: inline-block;
+}
+
+#nameBox {
+  /* display: none; */
+}
+
+.make-hide {
+  display: none;
+}
