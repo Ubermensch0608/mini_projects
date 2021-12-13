@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>JS-2weeks-challenge</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <h1>todo-list</h1>
+    <h3 class="greeting">Hello name!</h3>
+    <input
+      id="nameBox"
+      type="text"
+      value="Jongwon"
+      placeholder="type your name!"
+    />
+    <button onclick="setNewName">check in!</button>
+    <script>
+      document.querySelector(".greeting").innerText = "Hello";
+      function setNewName() {
+        const newName = document.getElementById("nameBox").value;
+        console.log(newName);
+      }
+      g;
+    </script>
+  </body>
+</html>
